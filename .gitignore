@@ -1,7 +1,40 @@
-node_modules/
+# byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# distribution
+build/
 dist/
 *.egg-info/
-__pycache__/
+*.egg
+.eggs/
+wheels/
+
+# virtualenvs
 .venv/
-vendor/
-*.pyc
+venv/
+env/
+ENV/
+
+# test + coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+nosetests.xml
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# env
+.env
+.env.local
